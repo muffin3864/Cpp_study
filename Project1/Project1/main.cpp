@@ -1,8 +1,38 @@
 
 
+#define HUNGRY 0x1
+#define THIRSTY 0x2
+#define TIRED 0x4
+#define FIRE 0x8 
+
+#define COLD 0x10
+#define POISON 0x20
+#define POISON 0x20
+#define POISON 0x40
+#define POISON 0x80
+
+#define POISON 0x100
+#define POISON 0x200
+#define POISON 0x400
+#define POISON 0x800
+
+
+// 1. 가독성
+// 2. 유지보수
+
+
 // 주석
 // 설명, 역할, 코드로 인식되지 않는다.
 
+// 전역변수
+int global = 0;
+
+int Add(int left, int right)
+{
+	return left + right;
+}
+
+// 함수.
 int main()
 {
 	// 자료형 (크기 단위, byte) Data Type
@@ -71,6 +101,153 @@ int main()
 	data--;
 	data--;
 
+	// 논리 연산자
+	// !(역), &&(And), ||(Or)
+	// 참(true), 거짓(false)
+	// 참 : 0이 아닌 값, 주로 1
+	// 거짓 : 0
+	bool truefalse = false;
+	bool Istrue = 100;
+	
+	Istrue = true;
+	Istrue = !Istrue;
+
+	int iTrue = 100;
+	iTrue = !iTrue;
+
+	iTrue = 0 && 200;
+	iTrue = 0 || 0;
+
+	// 비교 연산자
+	// ==, !=, <, <=, >, >=
+	// 참, 거짓
+
+
+	// 구문
+	// if, else
+	data = 0;
+	if (0 && 200)
+	{
+		data = 100;
+	}
+
+	if (data == 100)
+	{
+		// if 가 참인 경우 수행
+	}
+	else
+	{
+		// if 가 거짓인 경우 수행
+	}
+	
+
+	// switch case
+
+	int iTest = 20;
+	switch (iTest)
+	{
+	case 10:
+	case 20:
+	case 30:
+
+
+
+		break;
+	default:
+
+		break;
+	}
+
+
+	if (iTest == 10 || iTest == 20 || iTest == 30)
+	{
+
+	}
+	else if (iTest == 20)
+	{
+
+	}
+	else
+	{
+
+	}
+
+
+	// 삼항 연산자
+	// :?
+	iTest == 20 ? iTest = 100 : iTest = 200;
+
+	// 같은 의미
+	if (iTest == 20)
+	{
+		iTest = 100;
+	}
+	else
+	{
+		iTest = 200;
+	}
+
+
+	// 비트 연산자
+	// 쉬프트 <<, >>
+	unsigned char byte = 13;
+	byte <<= 3;	// 2^n 배수
+	byte >>= 2; // 2^n 나눈 몫
+
+	// 비트 곱(&), 합(|), xor(^), 반전(~)
+	// 비트단위로 연산을 진행,
+	// & 둘다 1인 경우 1
+	// | 둘중 하나라도 1이면 1
+	// ^ 같으면 0, 다르면 1
+	// ~ 1은 0으로, 0은 1로
+
+	unsigned int iStatus = 0;
+
+
+	// 상태 추가
+	iStatus |= HUNGRY;
+	iStatus |= THIRSTY;
+	
+	// 상태 확인
+	if (iStatus & THIRSTY)
+	{
+
+	}
+
+	// 특정 자리 비트 제거
+	iStatus &= ~THIRSTY;
+
+
+	// 변수
+	// 1. 지역변수
+	// 2. 전역변수
+	// 3. 정적변수
+	// 4. 외부변수
+
+
+
+
+
+	// 지역 변수
+	int iName = 0;
+
+	// 괄호 안에 선언된 변수(함수, 지역)
+	{
+		// 변수명 규칙
+		int iName = 100;
+		iName;
+		{
+			{
+
+			}
+		}
+	}
+
+
+	iName = 100;
+
+	// 함수
+	data = Add(10, 20);
 
 
 	
