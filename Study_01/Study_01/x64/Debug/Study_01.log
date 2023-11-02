@@ -1,0 +1,15 @@
+﻿  Study_01.cpp
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(11,1): warning C4005: 'POISON': 매크로 재정의
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(9,1): message : 'POISON'의 이전 정의를 참조하십시오.
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(12,1): warning C4005: 'POISON': 매크로 재정의
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(11,1): message : 'POISON'의 이전 정의를 참조하십시오.
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(14,1): warning C4005: 'POISON': 매크로 재정의
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(12,1): message : 'POISON'의 이전 정의를 참조하십시오.
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(15,1): warning C4005: 'POISON': 매크로 재정의
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(14,1): message : 'POISON'의 이전 정의를 참조하십시오.
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(16,1): warning C4005: 'POISON': 매크로 재정의
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(15,1): message : 'POISON'의 이전 정의를 참조하십시오.
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(17,1): warning C4005: 'POISON': 매크로 재정의
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(16,1): message : 'POISON'의 이전 정의를 참조하십시오.
+C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\Study_01\Study_01.cpp(110,14): warning C4305: '초기화 중': 'int'에서 'bool'(으)로 잘립니다.
+  Study_01.vcxproj -> C:\Users\SSAFY\Desktop\study\Cpp_study\Study_01\x64\Debug\Study_01.exe
